@@ -315,6 +315,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bbdf9ca5f13236449d577a6501a06d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diceHolder:
+  - {fileID: 2081833057}
+  - {fileID: 427080271}
+  - {fileID: 1121660525}
+  - {fileID: 702088162}
+  - {fileID: 208042815}
+  - {fileID: 2080300514}
+  - {fileID: 257274023}
 --- !u!4 &580689426
 Transform:
   m_ObjectHideFlags: 0

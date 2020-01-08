@@ -8,6 +8,11 @@ public class dice : MonoBehaviour
 
     // creating a random number... will move to dice class
 
+     
+
+
+
+
     int movement = new System.Random().Next(1, 3);
      
     void Start()

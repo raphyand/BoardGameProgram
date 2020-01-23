@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 208042816}
   - component: {fileID: 208042817}
   m_Layer: 0
-  m_Name: G.Die
+  m_Name: Green Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,6 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835468dd6c6421b429a9243208ec56f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementValue: 2
+  positive: 1
 --- !u!1 &257274023
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +213,7 @@ GameObject:
   - component: {fileID: 257274024}
   - component: {fileID: 257274025}
   m_Layer: 0
-  m_Name: W.Die
+  m_Name: White Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,6 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835468dd6c6421b429a9243208ec56f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementValue: 2
+  positive: 0
 --- !u!1 &427080271
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +258,7 @@ GameObject:
   - component: {fileID: 427080272}
   - component: {fileID: 427080273}
   m_Layer: 0
-  m_Name: O.Die
+  m_Name: Orange Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -286,6 +290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835468dd6c6421b429a9243208ec56f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementValue: 2
+  positive: 1
 --- !u!1 &580689424
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,13 +322,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diceHolder:
-  - {fileID: 2081833057}
-  - {fileID: 427080271}
-  - {fileID: 1121660525}
-  - {fileID: 702088162}
-  - {fileID: 208042815}
-  - {fileID: 2080300514}
-  - {fileID: 257274023}
+  - {fileID: 2081833059}
+  - {fileID: 1121660527}
+  - {fileID: 702088164}
+  - {fileID: 427080273}
+  - {fileID: 208042817}
+  - {fileID: 2080300516}
+  - {fileID: 257274025}
 --- !u!4 &580689426
 Transform:
   m_ObjectHideFlags: 0
@@ -355,7 +361,7 @@ GameObject:
   - component: {fileID: 702088163}
   - component: {fileID: 702088164}
   m_Layer: 0
-  m_Name: R.Die
+  m_Name: Red Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -387,6 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835468dd6c6421b429a9243208ec56f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementValue: 2
+  positive: 1
 --- !u!1 &752442670
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +546,7 @@ GameObject:
   - component: {fileID: 1121660526}
   - component: {fileID: 1121660527}
   m_Layer: 0
-  m_Name: Y.Die
+  m_Name: Yellow Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,6 +578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835468dd6c6421b429a9243208ec56f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementValue: 2
+  positive: 1
 --- !u!1 &2080300514
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,7 +591,7 @@ GameObject:
   - component: {fileID: 2080300515}
   - component: {fileID: 2080300516}
   m_Layer: 0
-  m_Name: Black.Die
+  m_Name: Black Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -613,6 +623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835468dd6c6421b429a9243208ec56f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementValue: 2
+  positive: 0
 --- !u!1 &2081833057
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +636,7 @@ GameObject:
   - component: {fileID: 2081833058}
   - component: {fileID: 2081833059}
   m_Layer: 0
-  m_Name: B.Die
+  m_Name: Blue Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -656,6 +668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835468dd6c6421b429a9243208ec56f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementValue: 2
+  positive: 1
 --- !u!4 &365316527509773250
 Transform:
   m_ObjectHideFlags: 0

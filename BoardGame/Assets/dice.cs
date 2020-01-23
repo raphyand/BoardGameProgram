@@ -14,9 +14,9 @@ public class dice : MonoBehaviour
      public void generateMovementValue()
      {
           if (positive == true)
-               movementValue = Random.Range(0, 3);
+               movementValue = Random.Range(1, 4);
           if (positive == false)
-               movementValue = Random.Range(0, 3) * -1;
+               movementValue = Random.Range(1, 4) * -1;
      }
 
      void Start()

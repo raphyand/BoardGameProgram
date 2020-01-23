@@ -7,7 +7,7 @@ public class dice : MonoBehaviour
     // Start is called before the first frame update
     // creating a random number... will move to dice class
 
-    [SerializeField] float movementValue;
+    [SerializeField] int movementValue;
      public bool positive;
      [SerializeField] 
 

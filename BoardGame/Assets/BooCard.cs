@@ -9,8 +9,8 @@ public class BooCard : MonoBehaviour
         // everything here is psudo code and i think i spelled that wrong
         // remember 2 of any card can not be adj of eachother 
        
-         if BooCard TileValue == Camel TileValue 
-            movementvalue -= 1 
+         //if BooCard TileValue == Camel TileValue 
+         //   movementvalue -= 1 
 
 
 

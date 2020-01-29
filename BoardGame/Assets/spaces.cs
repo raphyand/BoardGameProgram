@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameBoard : MonoBehaviour
+public class spaces : MonoBehaviour
 {
-     public spaces[] game_board;
+     public int spaceValue;
 
     // Start is called before the first frame update
     void Start()

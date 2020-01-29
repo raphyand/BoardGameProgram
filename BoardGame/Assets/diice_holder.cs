@@ -24,7 +24,7 @@ public class diice_holder : MonoBehaviour
           
           for (int i = 0; i < 5; i++)
           {
-               diceHolder[Random.Range(0, 7)/*new System.Random().Next(1, 3)*/].generateMovementValue();
+               diceHolder[Random.Range(0, 7)].generateMovementValue();
 
           }
           

@@ -22,9 +22,20 @@ public class diice_holder : MonoBehaviour
      void rollDice()
      {
           
-          for (int i = 0; i < 6; i++)
-          {
-               diceHolder[Random.Range(0, 6)].generateMovementValue();
+          for (int i = 0; i < 5; i++)
+          {// my python crap
+            dieColor = ()
+            count = 0
+            int tempValue = Random.Range(1, 8);
+            a.append(tempValue)
+            for i in a:
+                if(i==tempValue):
+                    count = count + 1
+                    if(count!=2):
+                        
+
+               diceHolder[tempValue].generateMovementValue();
+                    
 
           }
           

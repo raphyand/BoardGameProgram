@@ -22,9 +22,9 @@ public class diice_holder : MonoBehaviour
      void rollDice()
      {
           
-          for (int i = 0; i < 5; i++)
+          for (int i = 0; i < 6; i++)
           {
-               diceHolder[Random.Range(0, 7)].generateMovementValue();
+               diceHolder[Random.Range(0, 6)].generateMovementValue();
 
           }
           

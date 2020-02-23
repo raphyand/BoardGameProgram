@@ -21,7 +21,7 @@ public class dice : MonoBehaviour
 
      void Start()
      {
-          generateMovementValue();
+         // generateMovementValue();
      }
 
 

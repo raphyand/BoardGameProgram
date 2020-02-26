@@ -19,22 +19,24 @@ public class diice_holder : MonoBehaviour
 
     }
 
-     void rollDice()
-     {
-          
-          for (int i = 0; i < 5; i++)
-          {// my python crap
-            dieColor = ()
-            count = 0
+     void rollDice() 
+     {// my python crap. was trrying to translate it but i decided i would wait because c# does not have some of the functions
+          dieColor = () // in python i have this as dieColor = [] but u said [] does not work here
+          while len(dieColor)<5:
+          {
+            
             int tempValue = Random.Range(1, 8);
-            a.append(tempValue)
-            for i in a:
-                if(i==tempValue):
-                    count = count + 1
-                    if(count!=2):
-                        
+            dieColor.append(tempValue)
+            dieColor = list(set(dieColor)) // this removes duplicates in python
+            dieColor = dieColor[:5] // is keeps the list to 5 elements
+                if len(dieColor)==5
+                    break              //end loop so it does not keep running even though we thechnically cam
 
-               diceHolder[tempValue].generateMovementValue();
+
+
+
+
+            diceHolder[tempValue].generateMovementValue();
                     
 
           }
